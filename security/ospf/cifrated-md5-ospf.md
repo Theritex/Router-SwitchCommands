@@ -16,3 +16,7 @@ Router (config-if) #in gi0/1                                                §;
 Router (config-if) #ip ospf message-digest-key 1 md5 cabra                  §;
 Router (config-if) #ip ospf authentication message-digest                   §;
 ```
+
+Mostrar estado de conexions
+show ip osfp interface {interfaz}
+show ip ospf interface gi0/0
