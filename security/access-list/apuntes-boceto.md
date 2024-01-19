@@ -7,7 +7,7 @@ Irse al router de destino donde no queremos recibir los datos o red de al otra:
 en
 confi t
 access-list 1 deny [ip] [mascara negada]	>> access-list deny 192.168.1.128 0.0.0.63
-#Aora hay que permitir el resto de redes porque sino se ha denegado todo, para coger todas las redes:
+#Ahora hay que permitir el resto de redes porque sino se ha denegado todo, para coger todas las redes:
 access-list 1 permit any
 in fa0/0
 #Inidcamos que lo que haya en la lista 1, será quitado/eliminado y no habra contacto
