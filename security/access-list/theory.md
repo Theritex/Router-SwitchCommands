@@ -53,3 +53,24 @@ Para mostrar una lista de acceso, es necesario tener el numero de identificacion
 ```
 show access-list 1
 ```
+
+Mostrar Tipos de Listas:
+Para mostrar el tipo de lista de acceso que se puede establecer, es necesario acceder al router en modo configuracion y escribir el siguiente comando:
+```
+ip access-list ?
+```
+
+Mostrar Listas de Acceso Creadas:
+Para mostrar el numero y cantidad de listas de acceso creadas, es requerido estar en el router que almacena las listas de acceso y ejecutar el siguiente comando:
+```
+show access-lists
+```
+
+Permitir / Denegar Acceso de Protocolos:
+Para permitir o denegar protocolos con listas de acceso hay que seguir la siguiente estructura en modo de configuracion:
+`access-list 101-199 [permit/deny] [protocolo] [origen] [destino]`
+
+Un ejemplo de la denegación de rango de IPs, desde la IP `192.168.1.128` hasta la red `192.168.1.208`, bloqueando el protocolo ssh por ftp en el puerto 22:
+```
+access-list 101 deny tcp 192.168.1.128 0.0.0.69 192.168.1.208 0.0.0.15 eq 22
+```
