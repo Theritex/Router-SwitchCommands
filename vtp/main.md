@@ -11,7 +11,6 @@ confi t
 vtp mode server
 #En la creacion del nombre del domonio distingue mayusculas con minusculas
 vtp domain smr2
-vlan database password to smr2
 ```
 
 Indicar VTP transparente:
@@ -21,7 +20,6 @@ confi t
 vtp mode trnasparent
 vtp domain smr2
 vtp password smr 
-vlan database password to smr2
 ```
 
 Indicar VTP cliente:
@@ -31,5 +29,4 @@ confi t
 vtp mode client
 vtp password smr2
 vpt domain smr2
-vtp database password to smr2
 ```
