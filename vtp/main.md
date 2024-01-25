@@ -30,4 +30,5 @@ confi t
 vtp mode client
 vtp password smr2
 vpt domain smr2
+vtp password smr2 
 ```
