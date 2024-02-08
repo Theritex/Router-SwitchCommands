@@ -9,7 +9,8 @@ confi t
 access-list 1 deny [ip] [mascara negada]	>> access-list deny 192.168.1.128 0.0.0.63
 #Ahora hay que permitir el resto de redes porque sino se ha denegado todo, para coger todas las redes:
 access-list 1 permit any
-in fa0/0
+in gi0/0
+# Nos conectamos a la interfaz interna donde esta la red de origen y le idnicamos lo siguiente
 #Inidcamos que lo que haya en la lista 1, será quitado/eliminado y no habra contacto
 ip access-group 1 out
 #Permitir lo que haya en la lista 1
