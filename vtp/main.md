@@ -18,7 +18,7 @@ Indicar VTP transparente:
 ```
 en
 confi t
-vtp mode trnasparent
+vtp mode transparent
 vtp domain smr2
 vtp password smr2 
 ```
