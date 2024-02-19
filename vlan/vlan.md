@@ -7,3 +7,5 @@ vlan 10
 vlan 20
 vlan 30
 ```
+
+En los transparentes hay que crearlas a mano
