@@ -74,3 +74,16 @@ Switch(config-vlan)# exit
 Switch(config)# exit
 Switch# show vtp status
 ```
+## Pasos VTP:
+
+Para que el VTP funcione, es encesario seguir los siguientes pasos:
+- VTP : MOdo (servidor, cliente, transparente) con seguridad md5 (para verificar la información)
+- Dominio : Configurar un dominio
+- Contraseña : Una contraseña, para proteger el sistema
+- Trunk : Modo truncado para la conexion.
+
+### Mostrar configuracion VTP:
+Si muestra error en el estado del vtp, es posible mostrar el estado de este mismo con el siguiente comando (fuera del modo configuración):
+```
+Switch# show vtp status
+```
