@@ -77,7 +77,7 @@ Switch# show vtp status
 ## Pasos VTP:
 
 Para que el VTP funcione, es encesario seguir los siguientes pasos:
-- VTP : MOdo (servidor, cliente, transparente) con seguridad md5 (para verificar la información)
+- VTP : Modo (servidor, cliente, transparente) con seguridad md5 (para verificar la información)
 - Dominio : Configurar un dominio
 - Contraseña : Una contraseña, para proteger el sistema
 - Trunk : Modo truncado para la conexion.
