@@ -4,6 +4,7 @@ enable
 confi t
 in gi0/0
 ip nat inside
+exit
 in gi0/1
 ip nat outside
 exit
